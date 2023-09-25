@@ -5,7 +5,7 @@ import openai
 
 
 def gpt_init():
-    api_key = os.environ.get("OPENAI_API_KEY")
+    api_key = os.environ.get("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")
     if not api_key:
         raise Exception("OPENAI_API_KEY is not set")
     openai.api_key = api_key
