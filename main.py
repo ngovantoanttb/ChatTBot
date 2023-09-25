@@ -56,7 +56,7 @@ async def handle_error(
 
 
 if __name__ == "__main__":
-    telegram_bot_key = os.environ.get("TELEGRAM_BOT_KEY")
+    telegram_bot_key = os.environ.get("6482500139:AAGyKgVBqM0bmFYVNRjPl9BG9f0GMtDEE8Q")
     if not telegram_bot_key:
         raise Exception("TELEGRAM_BOT_KEY is not set")
 
